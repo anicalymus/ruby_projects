@@ -1,19 +1,5 @@
-def multiply(first_number, second_number)
-  first_number.to_f * second_number.to_f
-end
+#hash
+my_details = {'name' => 'anica', 'favcolor' => 'red'}
 
-puts multiply(9, 2)
-
-def divide(first_number, second_number)
-  first_number.to_f / second_number.to_f
-end
-
-def subtract(first_number, second_number)
-  first_number.to_f - second_number.to_f
-end
-
-def mod(first_number, second_number)
-  first_number.to_f % second_number.to_f
-end
-
-
+#iterating through a hash
+my_details.each { |k, v| puts "The key is #{k} and the value is #{v}"}

@@ -1,7 +1,7 @@
 dial_book = {
   "New York" => "212",
   "Oakland" => "510",
-  "San Franciso" => "415",
+  "San Francisco" => "415",
   "Sacramento" => "916",
   "San Diego" => "619",
   "Washington DC" => "202",
